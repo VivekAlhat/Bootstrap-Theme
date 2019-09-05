@@ -162,3 +162,7 @@ section h1{
     -webkit-animation-duration: 1s;
     animation-duration: 1s;
 }
+
+img#laptop.animate {
+    transform: translate(12em,0);
+}
