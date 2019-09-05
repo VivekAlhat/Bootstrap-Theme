@@ -152,6 +152,14 @@ section h1{
     line-height: 2em;
 }
 
+#footer-text {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#footer-text a {
+    color: brown;
+}
 .animate {
     -moz-transition: 1s ease-in-out;
     -webkit-transition: 1s ease-in-out;
