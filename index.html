@@ -164,11 +164,12 @@
     <script src="js/bootstrap.js"></script>
     <!-- Animation -->
     <script>
-        $(document).ready(function() {
+        $(document).ready(function() {  // When document is ready and atleast 200 pixel is scrolled perform animation
             $(window).scroll(function(){
                 var y = $(this).scrollTop();
                 if (y>=200){
-                    
+                    $('#laptop').addClass('animate');   // Animate laptop image
+                    $('#mobile').addClass('animate');   // Animate mobile image
                 }
             });
         })
