@@ -165,7 +165,12 @@
     <!-- Animation -->
     <script>
         $(document).ready(function() {
-            $(window).scroll();
+            $(window).scroll(function(){
+                var y = $(this).scrollTop();
+                if (y>=200){
+                    
+                }
+            });
         })
     </script>
 </body>
