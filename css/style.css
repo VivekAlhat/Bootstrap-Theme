@@ -167,19 +167,19 @@ section h1{
 }
 
 img#main.animate {
-    -moz-transform: translate(-40em,0);
-    -webkit-transform: translate(-40em,0);
-    transform: translate(-40em,0);
+    -moz-transform: translate(-33em,0);
+    -webkit-transform: translate(-33em,0);
+    transform: translate(-33em,0);
 }
 
 img#laptop.animate {
-    -moz-transform: translate(12em,0);
-    -webkit-transform: translate(12em,0);
-    transform: translate(12em,0);
+    -moz-transform: translate(10em,0);
+    -webkit-transform: translate(10em,0);
+    transform: translate(10em,0);
 }
 
 img#mobile.animate {
-    -moz-transform: translate(-8em,0);
-    -webkit-transform: translate(-8em,0);
-    transform: translate(-8em,0);
+    -moz-transform: translate(-6em,0);
+    -webkit-transform: translate(-6em,0);
+    transform: translate(-6em,0);
 }

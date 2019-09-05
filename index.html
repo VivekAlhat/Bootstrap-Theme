@@ -17,7 +17,7 @@
   
   <body>
     <!-- Navgiation Bar -->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+    <nav class="navbar navbar-default navbar-expand-md navbar-dark fixed-top">
     <a class="navbar-brand" href="#">Bootstrap Theme</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -160,11 +160,13 @@
     </footer>
     <!-- Footer End -->
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="https://use.fontawesome.com/f9561a0678.js"></script>
     <script src="js/bootstrap.js"></script>
     <!-- Animation -->
     <script>
-        $(document).ready(function() {  // When document is ready and atleast 200 pixel is scrolled perform animation
+        $(document).ready(function() { 
+            $('#main').addClass('animate');  // When document is ready and atleast 200 pixel is scrolled perform animation
             $(window).scroll(function(){
                 var y = $(this).scrollTop();
                 if (y>=200){
