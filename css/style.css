@@ -1,8 +1,22 @@
 body {
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .starter-template {
     padding: 40px 15px;
     text-align: center;
+}
+
+.navbar {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f27168;
+    min-height: 60px;
+    text-transform: uppercase;
+    border-bottom: 1px #000;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.btn {
+    background-color: #612a26;
 }
