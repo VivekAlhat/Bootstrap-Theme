@@ -106,3 +106,23 @@ section h1{
     display: block;
     margin-bottom: 25px;
 }
+
+.section-3 {
+    
+}
+
+.footer-main {
+    background: #706766;
+    color: #fff;
+    border-top: #333 8px solid;
+    padding: 40px 0px;
+}
+
+.footer-main h4, .footer-main a {
+    color: white;
+}
+
+.footer-main li {
+    list-style: disc;
+    line-height: 2em;
+}
