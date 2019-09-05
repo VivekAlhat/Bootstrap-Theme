@@ -111,6 +111,10 @@ section h1{
     text-align: center;
 }
 
+.section-3 img {
+    position: relative;
+}
+
 .footer-main {
     background: #706766;
     color: #fff;
