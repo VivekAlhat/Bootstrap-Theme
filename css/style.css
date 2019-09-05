@@ -8,7 +8,7 @@ body {
 }
 
 .navbar {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'B612', sans-serif;
     background-color: #f27168;
     min-height: 60px;
     text-transform: uppercase;
@@ -19,4 +19,8 @@ body {
 
 .btn {
     background-color: #612a26;
+}
+
+.navbar-brand {
+    font-size: 25px;
 }
