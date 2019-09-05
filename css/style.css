@@ -68,3 +68,10 @@ section h1{
     background: ghostwhite;
     color: bisque;
 }
+
+.features li {
+    list-style: none;
+    line-height: 2em;
+    padding: 5px 0px;
+    font-size: 15px;
+}
