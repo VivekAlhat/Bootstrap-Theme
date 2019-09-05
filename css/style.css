@@ -2,9 +2,26 @@ body {
     padding-top: 60px;
 }
 
-.starter-template {
-    padding: 40px 15px;
-    text-align: center;
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'B612', sans-serif;
+    color: #eb7b59;
+}
+
+a {
+    color: blue;
+}
+
+.margin-top-30 {
+    margin: 30px;
+}
+
+.highlight {
+    background: #d14d41;
+    color: whitesmoke;
+    padding: 5px 25px;
+    display: inline;
+    line-height: 60px;
+    border-radius: 5px;
 }
 
 .navbar {
@@ -32,4 +49,22 @@ body {
 
 .navbar-nav > li > a {
     padding-bottom: 0px;
+}
+
+section{
+    padding: 30px 0;
+    overflow: hidden;
+}
+
+section h1{
+    margin: 30px 0;
+}
+
+.section-1 {
+    background: ghostwhite;
+}
+
+.section-primary{
+    background: ghostwhite;
+    color: bisque;
 }
