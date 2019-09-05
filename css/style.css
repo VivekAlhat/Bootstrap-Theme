@@ -170,7 +170,7 @@ img#laptop.animate {
 }
 
 img#mobile.animate {
-    -moz-transform: translate(12em,0);
-    -webkit-transform: translate(12em,0);
-    transform: translate(12em,0);
+    -moz-transform: translate(-8em,0);
+    -webkit-transform: translate(-8em,0);
+    transform: translate(-8em,0);
 }
