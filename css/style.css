@@ -11,6 +11,12 @@ a {
     color: blue;
 }
 
+.fa {
+    margin-right: 15px;
+    color: brown;
+    font-size: 1.9em;    
+}
+
 .margin-top-30 {
     margin: 30px;
 }
